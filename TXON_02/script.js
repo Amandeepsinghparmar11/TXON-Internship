@@ -1,0 +1,24 @@
+let soundButton = document.getElementsByClassName("num");
+let audio = new Audio("/assets/audio.mp3");
+let playSound = ()=>{
+audio.play();
+};
+soundButton[0].addEventListener("click", playSound);
+soundButton[1].addEventListener("click", playSound);
+soundButton[2].addEventListener("click", playSound);
+soundButton[3].addEventListener("click", playSound);
+soundButton[4].addEventListener("click", playSound);
+soundButton[4].addEventListener("click", playSound);
+soundButton[5].addEventListener("click", playSound);
+soundButton[6].addEventListener("click", playSound);
+soundButton[7].addEventListener("click", playSound);
+soundButton[8].addEventListener("click", playSound);
+soundButton[9].addEventListener("click", playSound);
+soundButton[10].addEventListener("click", playSound);
+soundButton[11].addEventListener("click", playSound);
+soundButton[12].addEventListener("click", playSound);
+soundButton[13].addEventListener("click", playSound);
+soundButton[14].addEventListener("click", playSound);
+soundButton[15].addEventListener("click", playSound);
+soundButton[16].addEventListener("click", playSound);
+soundButton[17].addEventListener("click", playSound);
